@@ -1,0 +1,187 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#title
+{
+  background-color: #ff4c68;
+
+}
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+/* Download button */
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.app-img{
+  transform: rotate(25deg);
+  width:60%;
+  position:absolute;
+  right: 30%;
+  z-index: 0;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.btn-light{
+  background-color: #ff4c68;
+}
+
+h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+/* Features */
+
+#features{
+  padding: 5rem;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.feat{
+  color: #ef8172;
+  font-size: 5rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+.feat:hover{
+  color: #ff4c68;
+}
+.test{
+  color: #8f8f8f;
+}
+
+
+/* testinomial */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+h2{
+  font-family: "Montserrat" , sans-serif;
+font-weight: bold;
+font-size: 3rem;
+}
+.test-images{
+  margin: 1.5rem;
+  border-radius: 100%;
+  width: 10%;
+}
+#press{
+  background-color: #ef8172;
+padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+ width: 15%;
+ margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.display-4{
+  color: black;
+}
+
+.card-title{
+  color: Black;
+}
+
+/* Call to Action */
+#cta{
+  text-align: center;
+  padding: 3rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ff4c68;
+}
+.ct{
+  color: white;
+  font-size: 2.5rem;
+}
+
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.app-img{
+  transform: rotate(25deg);
+  width:60%;
+  position:absolute;
+  right: 30%;
+  z-index: 0;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.btn-light{
+  background-color: #ff4c68;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+    padding: 2rem;
+
+}
+.foot{
+  margin: 10px 20px;
+}
+.foot:hover{
+    color: #ff4c68;
+}
+.cp{
+  margin: 2rem;
+}
+
+
+
+@media (max-width:1028px) {
+
+  #title{
+
+    text-align: center;
+  }
+  .app-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
